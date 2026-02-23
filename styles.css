@@ -1,0 +1,11 @@
+* { box-sizing: border-box; font-family: Arial, sans-serif; }
+body { margin: 0; background: #fff6fb; color: #333; }
+.hero { text-align: center; padding: 60px 20px; background: linear-gradient(135deg, #ffd1e8, #fff1f7); }
+.hero h1 { font-size: 2.5rem; margin-bottom: 10px; }
+.cta { display: inline-block; margin-top: 15px; padding: 12px 20px; background: #ff8fb8; color: #fff; text-decoration: none; border-radius: 999px; }
+.categories, .products, .about { padding: 40px 20px; max-width: 1000px; margin: auto; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 16px; }
+.card, .product { background: #fff; padding: 16px; border-radius: 16px; text-align: center; box-shadow: 0 4px 10px rgba(0,0,0,0.05); }
+.product img { width: 100%; border-radius: 12px; }
+.btn { display: inline-block; margin-top: 8px; padding: 10px 14px; background: #ff8fb8; color: #fff; text-decoration: none; border-radius: 999px; }
+.footer { text-align: center; padding: 20px; background: #ffe3f1; }
