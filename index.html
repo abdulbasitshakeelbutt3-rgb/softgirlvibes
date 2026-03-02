@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SoftGirlVibes Shop</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #fff0f5; /* soft pink background */
+      margin: 0;
+      padding: 0;
+    }
+    .product-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      justify-items: center;
+      padding: 20px;
+    }
+    .product {
+      text-align: center;
+      background: #ffffff;
+      padding: 10px;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      max-width: 220px;
+    }
+    .product img {
+      width: 200px;
+      border-radius: 8px;
+    }
+    .product h3 {
+      font-size: 16px;
+      margin: 10px 0 5px 0;
+    }
+    .product p.price {
+      font-size: 14px;
+      font-weight: bold;
+      color: #ff4d88;
+      margin: 5px 0;
+    }
+    .product a {
+      display: inline-block;
+      padding: 8px 12px;
+      background: #ff4d88;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      margin-bottom: 5px;
+    }
+    @media (max-width: 480px) {
+      .product img {
+        width: 150px;
+      }
+      .product h3 {
+        font-size: 14px;
+      }
+      .product-container {
+        padding: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="product-container">
+
+    <!-- Product 1 -->
+    <div class="product">
+      <img src="product1.jpg" alt="Plaid Shirt Women Fashion Autumn Long Sleeve Top">
+      <h3>Plaid Shirt Women Fashion Autumn Long Sleeve Top Female Vintage Single Breasted Blouse Ladies Preppy Style Loose Check Shirts</h3>
+      <p class="price">$10.10</p>
+      <a href="https://s.click.aliexpress.com/e/_c4BLYF0n" target="_blank">Buy Now</a>
+    </div>
+
+    <!-- Product 2 -->
+    <div class="product">
+      <img src="product2.jpg" alt="Women's Spring/Summer 2024 New Striped Shirt">
+      <h3>Women's Spring/Summer 2024 New Striped Single Breasted Long Sleeve Shirt Women Elegant and Youth Woman Stylish Blouse</h3>
+      <p class="price">$18.26</p>
+      <a href="https://s.click.aliexpress.com/e/_c3stRsDV" target="_blank">Buy Now</a>
+    </div>
+
+  </div>
+
+</body>
+</html>
